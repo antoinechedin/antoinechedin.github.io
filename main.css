@@ -1,0 +1,35 @@
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave-animation {
+    2% {transform: translateX(0px);}
+    48%, 52% {transform: translateX(200px);}
+    98% {transform: translateX(0px);}
+}
+
+
+.wave-text {
+    width: 15rem;
+    text-overflow: clip;
+    animation-name: wave-text-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave-text-animation {
+    2% {transform: translateX(200px);}
+    50% {transform: translateX(0px);}
+    98% {transform: translateX(200px);}
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
