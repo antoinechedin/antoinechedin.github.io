@@ -1,34 +1,43 @@
-.wave {
-    animation-name: wave-animation;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
-@keyframes wave-animation {
-    2% {transform: translateX(0px);}
-    48%, 52% {transform: translateX(200px);}
-    98% {transform: translateX(0px);}
+.picture {
+    width: 60%;
+}
+@media (min-width: 768px){
+    .picture{
+        width: 40%;
+    }
 }
 
-
-.wave-text {
-    width: 15rem;
-    text-overflow: clip;
-    animation-name: wave-text-animation;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
-@keyframes wave-text-animation {
-    2% {transform: translateX(200px);}
-    50% {transform: translateX(0px);}
-    98% {transform: translateX(200px);}
+.jumbotron h1 {
+  font-weight: 300;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
 }
