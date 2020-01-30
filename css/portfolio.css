@@ -3,10 +3,25 @@ body {
 }
 
 .portfolio-banner {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     margin-bottom: 0;
     background-size: cover;
     background-position: center;
     border-radius: 0;
+}
+@media (min-width: 768px) {
+    .portfolio-banner {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
   }
+
+.screenshots img {
+    margin-bottom: 1rem;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
