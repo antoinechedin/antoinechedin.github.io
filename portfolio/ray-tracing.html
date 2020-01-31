@@ -24,30 +24,40 @@
 
     <!-- Begin page content -->
     <main role="main">
-        <div class="portfolio-banner" style="background-image: url('../images/gem-hunt.png')" ;></div>
-        <div class="container">
-            <h1 class="mt-5">RAY TRACING</h1>
+        <div style="overflow: hidden;">
+            <div class="portfolio-banner" style="background-image: url('../images/ray-tracing.png');"></div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-xl-7">
-                    <p>Play as Garnet, Amethyst and Pearl, and Steven, and even more in this strategic dice game where
-                        you hunt and capture corrupted gems. Up to 5 players, alone against the AI or with friends on
-                        the same device.</p>
-                    <p>Play as Garnet, Amethyst and Pearl, and Steven, and even more in this strategic dice game where
-                        you hunt and capture corrupted gems. Up to 5 players, alone against the AI or with friends on
-                        the same device.</p>
+            <h1 class="mt-5">RAY TRACING ENGINE</h1>
+        </div>
+        <div class="container">
+            <p>This is a ray tracing engine that I have written for school in october 2019 in C++. I mainly followed
+                the <a href="https://raytracing.github.io/">Ray Tracing in One Week</a> book serie along side with the
+                <a href="https://people.cs.kuleuven.be/~philip.dutre/GI/">Global Illumination Compendium</a>.
+                The engine is capable of rendering multiple spheres with different kind of material:</p>
+            <ul>
+                <li>Lambertian: classic colored diffuse surface.</li>
+                <li>Metalic: mirrors, with adjustable fuziness.</li>
+                <li>Dielectric: glass and transparent objects.</li>
+            </ul>
+            <p>It also features bounding volume hierachy. It highly reduce the number of ray collision detection,
+                leading to a huge performance gain.</p>
+            <p>
+                <a href="https://github.com/antoinechedin/image-synthesis" type="button"
+                    class="btn btn-outline-secondary">Github</a>
+            </p>
 
-                    <p><a href="https://github.com/antoinechedin/gem-hunt" type="button"
-                            class="btn btn-outline-secondary">Github</a></p>
+            <div class="row justify-content-center">
+                <div class="screenshots col-md-6 px-1">
+                    <img src="../images/screenshots/gem-hunt-0.png" class="img-fluid mb-2">
                 </div>
-                <div class="screenshots col-md-6 col-xl-5">
-                    <img src="../images/screenshots/gem-hunt-0.png" class="img-fluid">
-                    <img src="../images/screenshots/gem-hunt-1.png" class="img-fluid">
-                    <img src="../images/screenshots/gem-hunt-2.png" class="img-fluid">
+                <div class="screenshots col-md-6 px-1">
+                    <img src="../images/screenshots/gem-hunt-1.png" class="img-fluid mb-2">
+                </div>
+                <div class="screenshots col-md-6 px-1">
+                    <img src="../images/screenshots/gem-hunt-2.png" class="img-fluid mb-2">
                 </div>
             </div>
-
         </div>
     </main>
 
