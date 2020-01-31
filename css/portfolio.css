@@ -9,6 +9,8 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 0;
+    margin: -12px;
+    filter: blur(10px);
 }
 @media (min-width: 768px) {
     .portfolio-banner {
