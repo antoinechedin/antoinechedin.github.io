@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 
     <title>Antoine Chédin - Portfolio</title>
 </head>
@@ -18,44 +18,42 @@
     <header>
         <!-- Fixed navbar -->
         <nav class="navbar navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="../index.html#ray-tracing">Back</a>
+            <a class="navbar-brand" href="index.html#crystal-rain">Back</a>
         </nav>
     </header>
 
     <!-- Begin page content -->
     <main role="main">
         <div style="overflow: hidden;">
-            <div class="portfolio-banner" style="background-image: url('../images/ray-tracing.png');"></div>
+            <div class="portfolio-banner" style="background-image: url('images/crystal-rain.png');"></div>
         </div>
         <div class="container">
-            <h1 class="mt-5">RAY TRACING ENGINE</h1>
+            <h1 class="mt-5">CRYSTAL RAIN</h1>
         </div>
         <div class="container">
-            <p>This is a ray tracing engine that I have written for school in october 2019 in C++. I mainly followed
-                the <a href="https://raytracing.github.io/">Ray Tracing in One Week</a> book serie along side with the
-                <a href="https://people.cs.kuleuven.be/~philip.dutre/GI/">Global Illumination Compendium</a>.
-                The engine is capable of rendering multiple spheres with different kind of material:</p>
-            <ul>
-                <li>Lambertian: classic colored diffuse surface.</li>
-                <li>Metalic: mirrors, with adjustable fuziness.</li>
-                <li>Dielectric: glass and transparent objects.</li>
-            </ul>
-            <p>It also features bounding volume hierachy. It highly reduce the number of ray collision detection,
-                leading to a huge performance gain.</p>
+            <p>Crystal rain is a school project made in 3 weeks in January 2020 with Rendy Latbi.
+                The goal was to create a game with computer vision input.
+                We decided to make a game where you have to control 4 miners with 4 pawns on a board.
+                The miners have to gather minerals of their own color and bring them back to their house in order to
+                bank the points. There's also minecarts randomly crossing the place that must be avoided or the
+                game will end.
+            </p>
+            <p>I was in charge of developing the pawn detection algorithm and the main gameplay, while Rendy took care
+                of the art, UI, and balance.</p>
             <p>
-                <a href="https://github.com/antoinechedin/image-synthesis" type="button"
+                <a href="https://github.com/antoinechedin/gem-hunt" type="button"
                     class="btn btn-outline-secondary">Github</a>
             </p>
 
             <div class="row justify-content-center">
                 <div class="screenshots col-md-6 px-1">
-                    <img src="../images/screenshots/gem-hunt-0.png" class="img-fluid mb-2">
+                    <img src="images/screenshots/gem-hunt-0.png" class="img-fluid mb-2">
                 </div>
                 <div class="screenshots col-md-6 px-1">
-                    <img src="../images/screenshots/gem-hunt-1.png" class="img-fluid mb-2">
+                    <img src="images/screenshots/gem-hunt-1.png" class="img-fluid mb-2">
                 </div>
                 <div class="screenshots col-md-6 px-1">
-                    <img src="../images/screenshots/gem-hunt-2.png" class="img-fluid mb-2">
+                    <img src="images/screenshots/gem-hunt-2.png" class="img-fluid mb-2">
                 </div>
             </div>
         </div>
