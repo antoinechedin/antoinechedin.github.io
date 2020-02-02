@@ -9,35 +9,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Antoine Chédin - Portfolio</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 
 <body>
     <main role="main">
-        <section class="jumbotron text-center ">
-            <div class="container text-white">
-                <img src="images/antoine.jpg" class="picture rounded-circle my-5" alt="Antoine!!!">
-                <h1>Antoine Chédin</h1>
-                <p class="lead"><b>I'm a french student in game programation. I loves comics, movies and video games.
-                        I'm also a handyman and I draw for fun. Sometimes I make shorts with my friends.</b></p>
+        <div style="background-color: black;">
+            <section class="jumbotron text-center">
+                <div class="container text-white info">
+                    <img src="images/antoine.jpg" class="picture rounded-circle shadow my-5" alt="Antoine!!!">
+                    <h1 class="display-3">Antoine Chédin</h1>
+                    <p class="lead"><b>I'm a french student in game programation. I loves comics, movies and video
+                            games and draw for fun. Sometimes I make shorts with my friends.</b></p>
                 <!-- <p>
                     <a href="#" class="btn btn-primary my-2">Main call to action</a>
                     <a href="#" class="btn btn-secondary my-2">Secondary action</a>
                 </p> -->
-            </div>
-        </section>
+                </div>
+            </section>
+        </div>
 
-        <div class="album py-5 bg-light">
+        <div class="album py-5">
             <div class="container">
-                <!-- <h1 class="display-1 text-center mb-5">Portfolio</h1> -->
+                <h1 class="display-3 mb-5 text-center">Projects</h1>
                 <div class="row">
 
                     <!-- Card -->
                     <div class="col-lg-6">
                         <a href="crystalrain.html">
-                            <div id="crystalrain" class="card mb-4 bg-dark text-center text-white shadow-sm">
+                            <div id="crystalrain" class="card mb-4 bg-dark text-center text-white shadow">
                                 <img src="images/crystalrain/banner.png" class="card-img" alt="...">
                                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                                     <div>
@@ -50,7 +55,7 @@
 
                     <div class="col-lg-6">
                         <a href="gemhunt.html">
-                            <div id="gemhunt" class="card mb-4 bg-dark text-center text-white shadow-sm">
+                            <div id="gemhunt" class="card mb-4 bg-dark text-center text-white shadow">
                                 <img src="images/gemhunt/card.png" class="card-img" alt="...">
                                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                                     <div>
@@ -63,11 +68,11 @@
 
                     <div class="col-lg-4">
                         <a href="raytracing.html">
-                            <div id="raytracing" class="card mb-4 bg-dark text-center text-white shadow-sm">
+                            <div id="raytracing" class="card mb-4 bg-dark text-center text-white shadow">
                                 <img src="images/raytracing/card.png" class="card-img" alt="...">
                                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                                     <div>
-                                        <h3 class="card-title">RAY TRACING</h3>
+                                        <h3 class="card-title">RAY TRACING ENGINE</h3>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +81,7 @@
 
                     <div class="col-lg-4">
                         <a href="desc.html">
-                            <div id="desc" class="card mb-4 bg-dark text-center text-white shadow-sm">
+                            <div id="desc" class="card mb-4 bg-dark text-center text-white shadow">
                                 <img src="images/desc/card.png" class="card-img" alt="...">
                                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                                     <div>
@@ -89,7 +94,7 @@
 
                     <div class="col-lg-4">
                         <a href="metzfilmfest.html">
-                            <div id="metzfilmfest" class="card mb-4 bg-dark text-center text-white shadow-sm">
+                            <div id="metzfilmfest" class="card mb-4 bg-dark text-center text-white shadow">
                                 <img src="images/metzfilmfest/card.png" class="card-img" alt="...">
                                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                                     <div>
@@ -105,15 +110,10 @@
         </div>
     </main>
 
-    <footer class="text-muted">
-        <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p>New to Bootstrap? <a href="{{ site.url }}/">Visit the homepage</a> or read our <a
-                    href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/">getting started
-                    guide</a>.</p>
+    <footer class="bg-light text-muted">
+        <div class="container text-center">
+            <p>Website designed & created by Antoine Chédin v1.0 - <a
+                    href="https://github.com/antoinechedin/antoinechedin.github.io">View Source</a></p>
         </div>
     </footer>
 
@@ -128,6 +128,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script>feather.replace()</script>
 </body>
 
 </html>

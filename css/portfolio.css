@@ -1,5 +1,10 @@
 body {
     padding-top: 54px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
 }
 
 .portfolio-banner {
@@ -23,7 +28,11 @@ body {
     margin-bottom: 1rem;
 }
 
-.btn:focus,.btn:active:focus,.btn.active:focus,
-.btn.focus,.btn:active.focus,.btn.active.focus {
-    outline: none;
-}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
