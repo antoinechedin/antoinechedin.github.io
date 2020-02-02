@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <title>Antoine Chédin - Portfolio</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html#raytracing">Back</a>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main">
+        <div style="overflow: hidden;">
+            <div class="portfolio-banner" style="background-image: url('images/raytracing/card.png');"></div>
+        </div>
+        <div class="container my-5">
+            <h1 class="mt-5">RAY TRACING ENGINE</h1>
+            <p>This is a ray tracing engine that I have written for school in October 2019 in C++. I mainly followed
+                the <a href="https://raytracing.github.io/">Ray Tracing in One Week</a> book series along side with the
+                <a href="https://people.cs.kuleuven.be/~philip.dutre/GI/">Global Illumination Compendium</a>.
+                The engine is capable of rendering multiple spheres with different kind of material:</p>
+            <ul>
+                <li>Lambertian: classic colored diffuse surface.</li>
+                <li>Metalic: mirrors, with adjustable fuzziness.</li>
+                <li>Dielectric: glass and transparent objects.</li>
+            </ul>
+            <p>It also features bounding volume hierarchy. It highly reduces the number of ray collision detection,
+                leading to a huge performance gain.</p>
+            <p>
+                <a href="https://github.com/antoinechedin/image-synthesis" type="button"
+                    class="btn btn-outline-dark">Github</a>
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="preview col-md-6 px-1">
+                    <img src="images/raytracing/preview1.png" class="img-fluid mb-2">
+                </div>
+                <div class="preview col-md-6 px-1">
+                    <img src="images/raytracing/preview2.png" class="img-fluid mb-2">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-muted bg-light">
+        <div class="container text-center">
+            <p>Website designed & created by Antoine Chédin v1.0.0 - <a
+                    href="https://github.com/antoinechedin/antoinechedin.github.io">View Source</a></p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

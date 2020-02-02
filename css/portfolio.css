@@ -1,0 +1,38 @@
+body {
+    padding-top: 54px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
+}
+
+.portfolio-banner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    margin: -7px;
+    filter: blur(5px);
+}
+@media (min-width: 768px) {
+    .portfolio-banner {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+  }
+
+.screenshots img {
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
